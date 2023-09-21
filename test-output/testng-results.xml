@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-15T14:31:46 IST" name="Default suite" finished-at="2023-09-15T14:32:17 IST" duration-ms="30669">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:hybridframework.tests.SubmitOrderTest@4567f35d]" name="submitOrder" class="hybridframework.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2023-09-15T14:31:46 IST" name="Default test" finished-at="2023-09-15T14:32:17 IST" duration-ms="30669">
+      <class name="hybridframework.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:hybridframework.tests.SubmitOrderTest@4567f35d]" started-at="2023-09-15T14:31:47 IST" name="launchApplication" finished-at="2023-09-15T14:31:57 IST" duration-ms="9557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:hybridframework.tests.SubmitOrderTest@4567f35d]" started-at="2023-09-15T14:31:57 IST" name="submitOrder" data-provider="getData" finished-at="2023-09-15T14:32:02 IST" duration-ms="4939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Surekha@24, email=surekhapisale@gmail.com, products=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hybridframework.tests.SubmitOrderTest@4567f35d]" started-at="2023-09-15T14:32:02 IST" name="tearDown" finished-at="2023-09-15T14:32:02 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:hybridframework.tests.SubmitOrderTest@4567f35d]" started-at="2023-09-15T14:32:02 IST" name="launchApplication" finished-at="2023-09-15T14:32:06 IST" duration-ms="3661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:hybridframework.tests.SubmitOrderTest@4567f35d]" started-at="2023-09-15T14:32:06 IST" name="submitOrder" data-provider="getData" finished-at="2023-09-15T14:32:11 IST" duration-ms="4822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Surekha@25, email=surekhapisale25@gmail.com, products=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hybridframework.tests.SubmitOrderTest@4567f35d]" started-at="2023-09-15T14:32:11 IST" name="tearDown" finished-at="2023-09-15T14:32:11 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:hybridframework.tests.SubmitOrderTest@4567f35d]" started-at="2023-09-15T14:32:11 IST" name="launchApplication" finished-at="2023-09-15T14:32:15 IST" duration-ms="3778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ordeHistoryTest()[pri:0, instance:hybridframework.tests.SubmitOrderTest@4567f35d]" started-at="2023-09-15T14:32:15 IST" name="ordeHistoryTest" finished-at="2023-09-15T14:32:16 IST" depends-on-methods="hybridframework.tests.SubmitOrderTest.submitOrder" duration-ms="1383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ordeHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hybridframework.tests.SubmitOrderTest@4567f35d]" started-at="2023-09-15T14:32:16 IST" name="tearDown" finished-at="2023-09-15T14:32:17 IST" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hybridframework.tests.SubmitOrderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
