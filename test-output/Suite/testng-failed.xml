@@ -15,4 +15,16 @@
       </class> <!-- hybridframework.tests.ErrorValidationsTest -->
     </classes>
   </test> <!-- ErrorValidations Test(failed) -->
+  <test thread-count="5" parallel="tests" name="SubmitOrder Test(failed)">
+    <classes>
+      <class name="hybridframework.tests.SubmitOrderTest">
+        <methods>
+          <include name="submitOrder"/>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+          <include name="ordeHistoryTest"/>
+        </methods>
+      </class> <!-- hybridframework.tests.SubmitOrderTest -->
+    </classes>
+  </test> <!-- SubmitOrder Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
